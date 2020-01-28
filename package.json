@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-pixul",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
@@ -21,14 +21,14 @@
   },
   "homepage": "https://github.com/PixulHQ/eslint-config#readme",
   "devDependencies": {
-    "eslint": "5.16.0",
-    "@hapi/eslint-config-hapi": ">=12.1.0",
-    "@hapi/eslint-plugin-hapi": ">=4.3.3",
+    "eslint": "6.8.0",
+    "@hapi/eslint-config-hapi": ">=13.0.2",
+    "@hapi/eslint-plugin-hapi": ">=4.3.5",
     "eslint-plugin-security": ">=1.4.0"
   },
   "peerDependencies": {
-    "@hapi/eslint-config-hapi": ">=12.1.0",
-    "@hapi/eslint-plugin-hapi": ">=4.3.3",
+    "@hapi/eslint-config-hapi": ">=13.0.2",
+    "@hapi/eslint-plugin-hapi": ">=4.3.5",
     "eslint-plugin-security": ">=1.4.0"
   }
 }
