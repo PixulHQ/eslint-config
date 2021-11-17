@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-pixul",
-  "version": "3.1.0",
-  "description": "",
+  "version": "4.0.0",
+  "description": "ESLint config",
   "main": "lib/index.js",
   "scripts": {
     "lint": "eslint . --config=lib/index.js",
@@ -21,14 +21,16 @@
   },
   "homepage": "https://github.com/PixulHQ/eslint-config#readme",
   "devDependencies": {
-    "eslint": "6.8.0",
-    "@hapi/eslint-config-hapi": ">=13.0.2",
-    "@hapi/eslint-plugin-hapi": ">=4.3.5",
-    "eslint-plugin-security": ">=1.4.0"
+    "@babel/core": "7.16.0",
+    "@babel/eslint-parser": "7.16.3",
+    "@hapi/eslint-plugin": "5.1.0",
+    "eslint": "8.2.0",
+    "eslint-plugin-node": "11.1.0"
   },
   "peerDependencies": {
-    "@hapi/eslint-config-hapi": ">=13.0.2",
-    "@hapi/eslint-plugin-hapi": ">=4.3.5",
-    "eslint-plugin-security": ">=1.4.0"
+    "@babel/core": "7.x.x",
+    "@babel/eslint-parser": "7.x.x",
+    "@hapi/eslint-plugin": "5.x.x",
+    "eslint-plugin-node": "11.x.x"
   }
 }
